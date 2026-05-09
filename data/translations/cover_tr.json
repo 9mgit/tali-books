@@ -1,0 +1,23 @@
+{
+  "eyebrow": "On bölümlük bir hikaye",
+  "dedication": "Elde hiçbir şeyi kalmadığında bile devam eden her anne için.<br>Kendileri için hazır olmayan bir dünyaya doğan her çocuk için.<br>Kırık bir şeye bakıp — Bunu düzeltebilirim diye düşünen herkes için.",
+  "intro": "Bu kutsal bir kitap değil. Kutsal kitaplar size neye inanmanız gerektiğini söyler. Bu kitap ise ne yapmanız gerektiğini söyler. Sizden bakmanızı isteyecek. Gerçekten bakmanızı. Öfkenin ötesine. Bayrağın ötesine. Her insanın korkusunu sakladığı o yere kadar.",
+  "labels": {
+    "chapters": "Bölümler",
+    "words": "Kelimeler",
+    "parts": "Kısımlar"
+  },
+  "questions": [
+    "Gerçek acı nedir?",
+    "Kim görülmüyor?",
+    "Elimdekilerle şu an ne yapabilirim?",
+    "Bu tek başıma halletmem gereken bir şey mi, yoksa daha bilgili birinin müdahil olması mı gerekiyor?"
+  ],
+  "begin": "Okumaya Başla",
+  "sidebar": {
+    "search": "⌕ Kitapta ara…",
+    "chapters": "Bölümler",
+    "words": "Kelimeler",
+    "parts": "Kısımlar"
+  }
+}

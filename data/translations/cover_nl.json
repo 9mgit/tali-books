@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Een verhaal in tien delen",
+  "dedication": "Voor elke moeder die doorging toen ze niets meer overhad.<br>Voor elk kind dat geboren is in een wereld die niet klaar voor hen was.<br>Voor iedereen die ooit naar iets kapots keek en dacht — Ik zou dat kunnen maken.",
+  "intro": "Dit is geen heilig boek. Heilige boeken vertellen je wat je moet geloven. Dit boek vertelt je wat je moet doen. Het zal je vragen om te kijken. Echt te kijken. Voorbij de woede. Voorbij de vlag. Tot aan de plek waar ieder mens zijn angst bewaart.",
+  "labels": {
+    "chapters": "Hoofdstukken",
+    "words": "Woorden",
+    "parts": "Delen"
+  },
+  "questions": [
+    "Wat is de echte pijn?",
+    "Wie wordt er niet gezien?",
+    "Wat kan ik nu doen, met wat ik heb?",
+    "Is dit iets dat ik alleen moet aanpakken, of moet er iemand met meer kennis bij betrokken worden?"
+  ],
+  "begin": "Begin met lezen",
+  "sidebar": {
+    "search": "⌕ Zoek in het boek…",
+    "chapters": "Hoofdstukken",
+    "words": "Woorden",
+    "parts": "Delen"
+  }
+}

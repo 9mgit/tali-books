@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Příběh o deseti částech",
+  "dedication": "Pro každou matku, která pokračovala, i když jí nic nezbylo.<br>Pro každé dítě narozené do světa, který na něj nebyl připraven.<br>Pro každého, kdo se kdy podíval na něco rozbitého a pomyslel si — To bych mohl opravit.",
+  "intro": "Tohle není svatá kniha. Svaté knihy vám říkají, čemu máte věřit. Tahle kniha vám říká, co máte dělat. Požádá vás, abyste se podívali. Skutečně podívali. Za hněv. Za vlajku. Až do místa, kde si každá lidská bytost uchovává svůj strach.",
+  "labels": {
+    "chapters": "Kapitoly",
+    "words": "Slova",
+    "parts": "Části"
+  },
+  "questions": [
+    "Co je skutečná bolest?",
+    "Kdo není viděn?",
+    "Co mohu udělat právě teď s tím, co mám?",
+    "Je to něco, co bych měl zvládnout sám, nebo je třeba zapojit někoho zkušenějšího?"
+  ],
+  "begin": "Začít číst",
+  "sidebar": {
+    "search": "⌕ Hledat v knize…",
+    "chapters": "Kapitoly",
+    "words": "Slova",
+    "parts": "Části"
+  }
+}

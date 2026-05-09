@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Une histoire en dix parties",
+  "dedication": "Pour chaque mère qui a continué quand elle n'avait plus rien.<br>Pour chaque enfant né dans un monde qui n'était pas prêt pour lui.<br>Pour tous ceux qui ont un jour regardé quelque chose de brisé en pensant — Je pourrais réparer ça.",
+  "intro": "Ceci n'est pas un livre saint. Les livres saints vous disent quoi croire. Ce livre vous dit quoi faire. Il vous demandera de regarder. De vraiment regarder. Au-delà de la colère. Au-delà du drapeau. Jusqu'à l'endroit où chaque être humain cache sa peur.",
+  "labels": {
+    "chapters": "Chapitres",
+    "words": "Mots",
+    "parts": "Parties"
+  },
+  "questions": [
+    "Quelle est la vraie douleur ?",
+    "Qui n'est pas vu ?",
+    "Que puis-je faire dès maintenant, avec ce que j'ai ?",
+    "Est-ce quelque chose que je devrais gérer seul, ou quelqu'un de plus compétent doit-il intervenir ?"
+  ],
+  "begin": "Commencer la lecture",
+  "sidebar": {
+    "search": "⌕ Chercher dans le livre…",
+    "chapters": "Chapitres",
+    "words": "Mots",
+    "parts": "Parties"
+  }
+}

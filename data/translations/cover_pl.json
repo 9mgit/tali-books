@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Opowieść w dziesięciu częściach",
+  "dedication": "Dla każdej matki, która szła dalej, gdy nie miało już nic.<br>Dla każdego dziecka urodzonego w świecie, który nie był na nie gotowy.<br>Dla każdego, kto kiedykolwiek spojrzał na coś zepsutego i pomyślał — Mógłbym to naprawić.",
+  "intro": "To nie jest święta księga. Święte księgi mówią ci, w co masz wierzyć. Ta książka mówi ci, co masz robić. Poprosi cię, byś spojrzał. Naprawdę spojrzał. Poza gniew. Poza flagę. Aż do miejsca, w którym każdy człowiek skrywa swój lęk.",
+  "labels": {
+    "chapters": "Rozdziały",
+    "words": "Słowa",
+    "parts": "Części"
+  },
+  "questions": [
+    "Czym jest prawdziwy ból?",
+    "Kto nie jest dostrzegany?",
+    "Co mogę zrobić w tej chwili z tym, co mam?",
+    "Czy to coś, z czym powinienem poradzić sobie sam, czy potrzebny jest ktoś z większą wiedzą?"
+  ],
+  "begin": "Zacznij czytać",
+  "sidebar": {
+    "search": "⌕ Szukaj w książce…",
+    "chapters": "Rozdziały",
+    "words": "Słowa",
+    "parts": "Części"
+  }
+}

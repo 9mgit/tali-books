@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Isang kuwento sa sampung bahagi",
+  "dedication": "Para sa bawat ina na nagpatuloy nang wala na siyang matira.<br>Para sa bawat bata na isinilang sa mundong hindi handa para sa kanila.<br>Para sa lahat ng tumingin sa isang bagay na sira at nag-isip — Kaya ko itong ayusin.",
+  "intro": "Hindi ito banal na aklat. Sinasabi ng mga banal na aklat kung ano ang dapat mong paniwalaan. Sinasabi ng aklat na ito kung ano ang dapat mong gawin. Hihilingin nito sa iyong tumingin. Talagang tumingin. Lagpas sa galit. Lagpas sa watawat. Hanggang sa lugar kung saan itinatago ng bawat tao ang kanilang takot.",
+  "labels": {
+    "chapters": "Mga Kabanata",
+    "words": "Mga Salita",
+    "parts": "Mga Bahin"
+  },
+  "questions": [
+    "Ano ang totoong sakit?",
+    "Sino ang hindi nakikita?",
+    "Ano ang magagawa ko ngayon, gamit ang kung anong mayroon ako?",
+    "Ito ba ay isang bagay na dapat kong harapin nang mag-isa, o kailangan bang may kasamang mas may kaalaman?"
+  ],
+  "begin": "Simulan ang Pagbabasa",
+  "sidebar": {
+    "search": "⌕ Maghanap sa aklat…",
+    "chapters": "Mga Kabanata",
+    "words": "Mga Salita",
+    "parts": "Mga Bahagi"
+  }
+}

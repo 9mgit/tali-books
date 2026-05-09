@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Uma história em dez partes",
+  "dedication": "Para cada mãe que continuou quando já não tinha mais nada.<br>Para cada criança nascida num mundo que não estava preparado para ela.<br>Para todos os que já olharam para algo partido e pensaram — Eu poderia consertar isso.",
+  "intro": "Este não é um livro sagrado. Livros sagrados dizem-te no que acreditar. Este livro diz-te o que fazer. Ele vai pedir-te para olhares. Olhares a sério. Para além da raiva. Para além da bandeira. Até ao lugar onde cada ser humano guarda o seu medo.",
+  "labels": {
+    "chapters": "Capítulos",
+    "words": "Palavras",
+    "parts": "Partes"
+  },
+  "questions": [
+    "Qual é a dor real?",
+    "Quem não está a ser visto?",
+    "O que posso fazer agora, com o que tenho?",
+    "Isto é algo que devo resolver sozinho ou alguém com mais conhecimento precisa de ser envolvido?"
+  ],
+  "begin": "Começar a Ler",
+  "sidebar": {
+    "search": "⌕ Pesquisar no livro…",
+    "chapters": "Capítulos",
+    "words": "Palavras",
+    "parts": "Partes"
+  }
+}

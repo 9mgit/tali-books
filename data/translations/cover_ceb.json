@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Usa ka istorya sa napulo ka bahin",
+  "dedication": "Para sa matag inahan nga nagpadayon sa dihang wala na siyay nahibilin.<br>Para sa matag bata nga natawo sa kalibutan nga wala pa handa alang kanila.<br>Para sa tanan nga nakakita og butang nga guba ug naghunahuna — Maayo nako ni nga ayuhon.",
+  "intro": "Dili kini balaan nga libro. Ang balaan nga mga libro nagsulti kanimo kung unsa ang tuohan. Kini nga libro nagsulti kanimo kung unsa ang buhaton. Kini mohangyo kanimo sa pagtan-aw. Tan-awa pag-ayo. Lapas sa kasuko. Lapas sa bandera. Ngadto sa dapit diin ang matag tawo nagtipig sa ilang kahadlok.",
+  "labels": {
+    "chapters": "Mga Kapitulo",
+    "words": "Mga Pulong",
+    "parts": "Mga Bahin"
+  },
+  "questions": [
+    "Unsa ang tinuod nga kasakit?",
+    "Kinsa ang wala makita?",
+    "Unsa ang akong mabuhat karon dayon, sa kung unsa ang naa nako?",
+    "Kini ba usa ka butang nga kinahanglan nako nga dumalahon nga ako ra, o kinahanglan ba ang uban nga adunay daghang kahibalo?"
+  ],
+  "begin": "Sugdi ang Pagbasa",
+  "sidebar": {
+    "search": "⌕ Pangitaa sa libro…",
+    "chapters": "Mga Kapitulo",
+    "words": "Mga Pulong",
+    "parts": "Mga Bahin"
+  }
+}

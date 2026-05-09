@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Một câu chuyện gồm mười phần",
+  "dedication": "Dành cho mọi người mẹ đã tiếp tục bước đi khi chẳng còn lại gì.<br>Dành cho mọi đứa trẻ sinh ra trong một thế giới chưa sẵn sàng đón nhận chúng.<br>Dành cho tất cả những ai từng nhìn vào một thứ gì đó đổ vỡ và nghĩ — mình có thể sửa nó.",
+  "intro": "Đây không phải là một cuốn kinh thánh. Kinh thánh bảo bạn phải tin vào điều gì. Cuốn sách này bảo bạn phải làm gì. Nó sẽ yêu cầu bạn nhìn. Thật sự nhìn. Vượt qua cơn giận dữ. Vượt qua lá cờ. Xuống tận nơi mà mọi con người đều cất giấu nỗi sợ hãi của mình.",
+  "labels": {
+    "chapters": "Chương",
+    "words": "Từ",
+    "parts": "Phần"
+  },
+  "questions": [
+    "Nỗi đau thực sự là gì?",
+    "Ai là người không được nhìn thấy?",
+    "Tôi có thể làm gì ngay bây giờ, với những gì tôi có?",
+    "Đây là việc tôi nên tự giải quyết, hay cần một người có kiến thức hơn tham gia?"
+  ],
+  "begin": "Bắt đầu đọc",
+  "sidebar": {
+    "search": "⌕ Tìm kiếm trong sách…",
+    "chapters": "Chương",
+    "words": "Từ",
+    "parts": "Phần"
+  }
+}
