@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Eine Geschichte in zehn Teilen",
+  "dedication": "Für jede Mutter, die weitergemacht hat, als sie nichts mehr hatte.<br>Für jedes Kind, das in eine Welt geboren wurde, die nicht bereit für es war.<br>Für jeden, der jemals etwas Zerbrochenes angesehen und gedacht hat: — Ich könnte das reparieren.",
+  "intro": "Dies ist kein heiliges Buch. Heilige Bücher sagen dir, was du glauben sollst. Dieses Buch sagt dir, was du tun sollst. Es wird dich auffordern, hinzusehen. Wirklich hinzusehen. Über die Wut hinaus. Über die Flagge hinaus. Bis hinunter zu dem Ort, an dem jeder Mensch seine Angst bewahrt.",
+  "labels": {
+    "chapters": "Kapitel",
+    "words": "Wörter",
+    "parts": "Teile"
+  },
+  "questions": [
+    "Was ist der wahre Schmerz?",
+    "Wer wird nicht gesehen?",
+    "Was kann ich jetzt tun, mit dem, was ich habe?",
+    "Ist das etwas, das ich allein bewältigen sollte, oder muss jemand mit mehr Wissen hinzugezogen werden?"
+  ],
+  "begin": "Lesen beginnen",
+  "sidebar": {
+    "search": "⌕ Buch durchsuchen…",
+    "chapters": "Kapitel",
+    "words": "Wörter",
+    "parts": "Teile"
+  },
+  "word_count": 173
+}

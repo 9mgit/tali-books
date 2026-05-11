@@ -1,0 +1,24 @@
+{
+  "eyebrow": "En historie i ti dele",
+  "dedication": "Til enhver mor, der fortsatte, da hun intet havde tilbage.<br>Til ethvert barn født ind i en verden, der ikke var klar til dem.<br>Til alle, der nogensinde har set på noget ødelagt og tænkt — Jeg kunne reparere det.",
+  "intro": "Dette er ikke en hellig bog. Hellige bøger fortæller dig, hvad du skal tro på. Denne bog fortæller dig, hvad du skal gøre. Den vil bede dig om at se. Virkelig se. Forbi vreden. Forbi flaget. Ned til det sted, hvor ethvert menneske gemmer sin frygt.",
+  "labels": {
+    "chapters": "Kapitler",
+    "words": "Ord",
+    "parts": "Dele"
+  },
+  "questions": [
+    "Hvad er den virkelige smerte?",
+    "Hvem bliver ikke set?",
+    "Hvad kan jeg gøre lige nu, med det jeg har?",
+    "Er det her noget, jeg bør håndtere alene, eller er der brug for en med mere viden?"
+  ],
+  "begin": "Begynd at læse",
+  "sidebar": {
+    "search": "⌕ Søg i bogen…",
+    "chapters": "Kapitler",
+    "words": "Ord",
+    "parts": "Dele"
+  },
+  "word_count": 171
+}

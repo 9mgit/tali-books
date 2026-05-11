@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Crita ing sepuluh perangan",
+  "dedication": "Kanggo saben ibu sing tetep maju nalika dheweke wis ora duwe apa-apa.<br>Kanggo saben bocah sing lair ing donya sing durung siyap kanggo dheweke.<br>Kanggo kabeh wong sing tau ndeleng barang sing rusak lan mikir — aku bisa ndandani iku.",
+  "intro": "Iki dudu kitab suci. Kitab suci ngandhani apa sing kudu dipercaya. Buku iki ngandhani apa sing kudu dilakoni. Bakal njaluk sampeyan ndeleng. Temenan ndeleng. Ngluwahi nesu. Ngluwahi gendera. Mudhun menyang panggonan ing ngendi saben manungsa nyimpen rasa wedine.",
+  "labels": {
+    "chapters": "Bab",
+    "words": "Tembung",
+    "parts": "Perangan"
+  },
+  "questions": [
+    "Apa lara sing sejatine?",
+    "Sapa sing ora katon?",
+    "Apa sing bisa tak lakoni saiki, karo apa sing tak duweni?",
+    "Apa iki perkara sing kudu tak tangani dhewe, utawa apa butuh wong sing luwih ngerti?"
+  ],
+  "begin": "Mulai Maca",
+  "sidebar": {
+    "search": "⌕ Goleki ing buku…",
+    "chapters": "Bab",
+    "words": "Tembung",
+    "parts": "Perangan"
+  },
+  "word_count": 170
+}

@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Labari a gida goma",
+  "dedication": "Ga kowace uwa da ta ci gaba da tafiya lokacin da ba ta da sauran komai.<br>Ga kowane yaro da aka haifa a duniyar da ba ta shirya musu ba.<br>Ga duk wanda ya taba kallon wani abu da ya lalace kuma ya yi tunanin — zan iya gyara wannan.",
+  "intro": "Wannan ba littafi ne mai tsarki ba. Littattafai masu tsarki suna gaya muku abin da za ku yi imani da shi. Wannan littafin yana gaya muku abin da za ku yi. Zai nemi ku duba. Ku duba sosai. Bayan fushi. Bayan tuta. Har zuwa inda kowane ɗan adam yake ajiye tsoronsa.",
+  "labels": {
+    "chapters": "Surori",
+    "words": "Kalmomi",
+    "parts": "Sassa"
+  },
+  "questions": [
+    "Mene ne ainihin zafin?",
+    "Wane ne ba a gani?",
+    "Me zan iya yi yanzu, da abin da nake da shi?",
+    "Shin wannan wani abu ne da ya kamata in magance shi ni kaɗai, ko kuma ana buƙatar wani mai ilimi ya shiga ciki?"
+  ],
+  "begin": "Fara Karatu",
+  "sidebar": {
+    "search": "⌕ Bincika littafin…",
+    "chapters": "Surori",
+    "words": "Kalmomi",
+    "parts": "Sassa"
+  },
+  "word_count": 184
+}

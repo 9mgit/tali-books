@@ -1,0 +1,24 @@
+{
+  "eyebrow": "En historie i ti deler",
+  "dedication": "For hver mor som fortsatte da hun ikke hadde noe igjen.<br>For hvert barn født inn i en verden som ikke var klar for dem.<br>For alle som noen gang har sett på noe ødelagt og tenkt — Jeg kunne fikset det.",
+  "intro": "Dette er ikke en hellig bok. Hellige bøker forteller deg hva du skal tro. Denne boken forteller deg hva du skal gjøre. Den vil be deg om å se. Virkelig se. Forbi sinnet. Forbi flagget. Ned til stedet der hvert menneske oppbevarer sin frykt.",
+  "labels": {
+    "chapters": "Kapitler",
+    "words": "Ord",
+    "parts": "Deler"
+  },
+  "questions": [
+    "Hva er den virkelige smerten?",
+    "Hvem blir ikke sett?",
+    "Hva kan jeg gjøre akkurat nå, med det jeg har?",
+    "Er dette noe jeg bør håndtere alene, eller må noen med mer kunnskap involveres?"
+  ],
+  "begin": "Begynn å lese",
+  "sidebar": {
+    "search": "⌕ Søk i boken…",
+    "chapters": "Kapitler",
+    "words": "Ord",
+    "parts": "Deler"
+  },
+  "word_count": 172
+}

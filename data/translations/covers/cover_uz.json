@@ -1,0 +1,24 @@
+{
+  "eyebrow": "O'n qismdan iborat hikoya",
+  "dedication": "Hech narsasi qolmaganida ham yo'lda davom etgan har bir ona uchun.<br>Ular uchun tayyor bo'lmagan dunyoga kelgan har bir bola uchun.<br>Qachondir singan narsaga qarab — Buni tuzata olaman — deb o'ylagan har bir kishi uchun.",
+  "intro": "Bu muqaddas kitob emas. Muqaddas kitoblar sizga nimaga ishonish kerakligini aytadi. Bu kitob esa nima qilish kerakligini aytadi. U sizdan qarashni so'raydi. Haqiqatan qarashni. G'azabdan o'tib. Bayroqdan o'tib. Har bir inson o'z qo'rquvini saqlaydigan joygacha tushing.",
+  "labels": {
+    "chapters": "Boblar",
+    "words": "So'zlar",
+    "parts": "Qismlar"
+  },
+  "questions": [
+    "Haqiqiy og'riq nima?",
+    "Kim e'tibordan chetda qolmoqda?",
+    "Hozir menda bor narsalar bilan nima qila olaman?",
+    "Buni yolg'iz o'zim hal qilishim kerakmi yoki ko'proq bilimga ega bo'lgan kishini jalb qilish zarurmi?"
+  ],
+  "begin": "O'qishni boshlash",
+  "sidebar": {
+    "search": "⌕ Kitobdan qidirish…",
+    "chapters": "Boblar",
+    "words": "So'zlar",
+    "parts": "Qismlar"
+  },
+  "word_count": 164
+}

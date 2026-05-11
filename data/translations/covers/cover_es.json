@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Una historia en diez partes",
+  "dedication": "Para cada madre que siguió adelante cuando no le quedaba nada.<br>Para cada niño nacido en un mundo que no estaba preparado para ellos.<br>Para todo aquel que alguna vez miró algo roto y pensó: — Yo podría arreglar eso.",
+  "intro": "Este no es un libro sagrado. Los libros sagrados te dicen qué creer. Este libro te dice qué hacer. Te pedirá que mires. Que mires de verdad. Más allá de la ira. Más allá de la bandera. Hasta el lugar donde cada ser humano guarda su miedo.",
+  "labels": {
+    "chapters": "Capítulos",
+    "words": "Palabras",
+    "parts": "Partes"
+  },
+  "questions": [
+    "¿Cuál es el verdadero dolor?",
+    "¿A quién no se está viendo?",
+    "¿Qué puedo hacer ahora mismo, con lo que tengo?",
+    "¿Es esto algo que deba manejar solo, o es necesario que alguien con más conocimiento se involucre?"
+  ],
+  "begin": "Empezar a leer",
+  "sidebar": {
+    "search": "⌕ Buscar en el libro…",
+    "chapters": "Capítulos",
+    "words": "Palabras",
+    "parts": "Partes"
+  },
+  "word_count": 169
+}

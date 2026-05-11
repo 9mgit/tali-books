@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Tarina kymmenessä osassa",
+  "dedication": "Jokaiselle äidille, joka jatkoi, kun mitään ei ollut jäljellä.<br>Jokaiselle lapselle, joka syntyi maailmaan, joka ei ollut valmis heitä varten.<br>Jokaiselle, joka on joskus katsonut jotakin rikkinäistä ja ajatellut — Minä voisin korjata tuon.",
+  "intro": "Tämä ei ole pyhä kirja. Pyhät kirjat kertovat, mihin uskoa. Tämä kirja kertoo, mitä tehdä. Se pyytää sinua katsomaan. Todella katsomaan. Vihan ohi. Lipun ohi. Alas paikkaan, jossa jokainen ihminen säilyttää pelkoaan.",
+  "labels": {
+    "chapters": "Luvut",
+    "words": "Sanat",
+    "parts": "Osat"
+  },
+  "questions": [
+    "Mikä on todellinen kipu?",
+    "Ketä ei nähdä?",
+    "Mitä voin tehdä juuri nyt sillä, mitä minulla on?",
+    "Onko tämä asia, joka minun pitäisi hoitaa yksin, vai pitäisikö jonkun tietävämmän osallistua?"
+  ],
+  "begin": "Aloita lukeminen",
+  "sidebar": {
+    "search": "⌕ Hae kirjasta…",
+    "chapters": "Luvut",
+    "words": "Sanat",
+    "parts": "Osat"
+  },
+  "word_count": 160
+}

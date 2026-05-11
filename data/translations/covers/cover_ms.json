@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Sebuah kisah dalam sepuluh bahagian",
+  "dedication": "Untuk setiap ibu yang terus melangkah ketika dia tidak mempunyai apa-apa lagi.<br>Untuk setiap anak yang dilahirkan ke dunia yang tidak bersedia untuk mereka.<br>Untuk sesiapa sahaja yang pernah melihat sesuatu yang rosak dan berfikir — Aku boleh membaikinya.",
+  "intro": "Ini bukan kitab suci. Kitab suci memberitahu anda apa yang perlu dipercayai. Buku ini memberitahu anda apa yang perlu dilakukan. Ia akan meminta anda untuk melihat. Benar-benar melihat. Melangkaui kemarahan. Melangkaui bendera. Hingga ke tempat di mana setiap manusia menyimpan rasa takut mereka.",
+  "labels": {
+    "chapters": "Bab",
+    "words": "Perkataan",
+    "parts": "Bahagian"
+  },
+  "questions": [
+    "Apakah kesakitan yang sebenar?",
+    "Siapakah yang tidak dilihat?",
+    "Apa yang boleh saya lakukan sekarang, dengan apa yang saya ada?",
+    "Adakah ini sesuatu yang patut saya kendalikan sendiri, atau adakah seseorang yang mempunyai lebih banyak pengetahuan perlu dilibatkan?"
+  ],
+  "begin": "Mula Membaca",
+  "sidebar": {
+    "search": "⌕ Cari dalam buku…",
+    "chapters": "Bab",
+    "words": "Perkataan",
+    "parts": "Bahagian"
+  },
+  "word_count": 172
+}

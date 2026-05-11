@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Hadithi katika sehemu kumi",
+  "dedication": "Kwa kila mama aliyeendelea mbele wakati hakuwa na chochote kilichobaki.<br>Kwa kila mtoto aliyezaliwa katika ulimwengu ambao haukuwa tayari kwa ajili yao.<br>Kwa kila mtu ambaye amewahi kutazama kitu kilichovunjika na kufikiria — naweza kukitengeneza.",
+  "intro": "Hiki si kitabu kitakatifu. Vitabu vitakatifu hukuambia nini cha kuamini. Kitabu hiki hukuambia nini cha kufanya. Kitakuomba utazame. Utazame kweli kweli. Kupita hasira. Kupita bendera. Hadi mahali ambapo kila mwanadamu huweka hofu yake.",
+  "labels": {
+    "chapters": "Sura",
+    "words": "Maneno",
+    "parts": "Sehemu"
+  },
+  "questions": [
+    "Maumivu ya kweli ni nini?",
+    "Nani haonekani?",
+    "Naweza kufanya nini sasa hivi, kwa kile nilicho nacho?",
+    "Je, hili ni jambo ninalopaswa kulishughulikia peke yangu, au kuna mtu mwenye ujuzi zaidi anahitaji kuhusishwa?"
+  ],
+  "begin": "Anza Kusoma",
+  "sidebar": {
+    "search": "⌕ Tafuta kwenye kitabu…",
+    "chapters": "Sura",
+    "words": "Maneno",
+    "parts": "Sehemu"
+  },
+  "word_count": 166
+}

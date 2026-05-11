@@ -287,9 +287,9 @@ func handleTranslation(w http.ResponseWriter, r *http.Request) {
 	
 	var filePath string
 	if strings.HasPrefix(filename, "cover_") {
-		filePath = "data/translations/" + filename
+		filePath = "data/translations/covers/" + filename
 	} else {
-		filePath = "data/translations/chapters_" + filename
+		filePath = "data/translations/chapters/" + filename
 	}
 	
 	if _, err := os.Stat(filePath); os.IsNotExist(err) {

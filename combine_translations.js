@@ -1,9 +1,21 @@
 const fs = require('fs');
 const path = require('path');
 
-const LANGUAGES = ['de', 'it', 'ja', 'ko', 'pt', 'tr', 'ru', 'pl', 'nl', 'my', 'km', 'bn', 'sv', 'am', 'ar', 'fa', 'id', 'ceb', 'es', 'fr', 'hi', 'tl', 'vi', 'zh', 'da'];
 const LANGS_DIR = 'langs';
 const OUT_DIR = 'data/translations';
+
+const ALL_LANGUAGES = ['am', 'ar', 'bn', 'ceb', 'cs', 'da', 'de', 'es', 'fa', 'fi', 'fr', 'ha', 'hi', 'id', 'it', 'ja', 'km', 'ko', 'mr', 'my', 'nl', 'no', 'pa', 'pl', 'pt', 'ru', 'sv', 'sw', 'te', 'th', 'tl', 'tr', 'ur', 'vi', 'wuu', 'yue', 'zh'];
+
+const args = process.argv.slice(2);
+let LANGUAGES = [];
+
+if (args.length > 0) {
+    LANGUAGES = args;
+    console.log(`Building only: ${LANGUAGES.join(', ')}`);
+} else {
+    LANGUAGES = ALL_LANGUAGES;
+    console.log(`Building ALL languages (${LANGUAGES.length})`);
+}
 
 function combineLang(iso) {
     console.log(`Processing ${iso}...`);
@@ -38,6 +50,7 @@ function combineLang(iso) {
     }
 
     allChapters.sort((a, b) => (a.num || 0) - (b.num || 0));
+    allChapters = allChapters.filter((c, i, arr) => !i || c.num !== arr[i-1].num);
     console.log(`Total chapters for ${iso}: ${allChapters.length}`);
 
     if (!fs.existsSync(OUT_DIR)) {
@@ -50,3 +63,5 @@ function combineLang(iso) {
 }
 
 LANGUAGES.forEach(combineLang);
+
+console.log('\nDone!');

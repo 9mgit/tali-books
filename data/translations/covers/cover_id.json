@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Sebuah cerita dalam sepuluh bagian",
+  "dedication": "Untuk setiap ibu yang terus melangkah saat ia tidak punya apa-apa lagi.<br>Untuk setiap anak yang lahir di dunia yang belum siap menerima mereka.<br>Untuk siapa saja yang pernah melihat sesuatu yang rusak dan berpikir — Aku bisa memperbaikinya.",
+  "intro": "Ini bukan kitab suci. Kitab suci memberi tahu Anda apa yang harus diyakini. Buku ini memberi tahu Anda apa yang harus dilakukan. Ia akan meminta Anda untuk melihat. Benar-benar melihat. Melampaui kemarahan. Melampaui bendera. Turun ke tempat di mana setiap manusia menyimpan rasa takut mereka.",
+  "labels": {
+    "chapters": "Bab",
+    "words": "Kata",
+    "parts": "Bagian"
+  },
+  "questions": [
+    "Apa rasa sakit yang sebenarnya?",
+    "Siapa yang tidak terlihat?",
+    "Apa yang bisa saya lakukan sekarang, dengan apa yang saya miliki?",
+    "Apakah ini sesuatu yang harus saya tangani sendiri, atau apakah seseorang dengan pengetahuan lebih perlu dilibatkan?"
+  ],
+  "begin": "Mulai Membaca",
+  "sidebar": {
+    "search": "⌕ Cari di buku ini…",
+    "chapters": "Bab",
+    "words": "Kata",
+    "parts": "Bagian"
+  },
+  "word_count": 177
+}
