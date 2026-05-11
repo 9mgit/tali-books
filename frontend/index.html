@@ -664,6 +664,26 @@
         <div class="lang-option" data-lang="ha" onclick="selectLang('ha','Hausa')">Hausa</div>
         <div class="lang-option" data-lang="am" onclick="selectLang('am','አማርኛ')">አማርኛ</div>
         <div class="lang-option" data-lang="fa" onclick="selectLang('fa','فارسی')">فارسی</div>
+        <div class="lang-option" data-lang="apc" onclick="selectLang('apc','شامي')">شامي</div>
+        <div class="lang-option" data-lang="apd" onclick="selectLang('apd','عربي سوداني')">عربي سوداني</div>
+        <div class="lang-option" data-lang="arz" onclick="selectLang('arz','مصري')">مصري</div>
+        <div class="lang-option" data-lang="bho" onclick="selectLang('bho','भोजपुरी')">भोजपुरी</div>
+        <div class="lang-option" data-lang="gu" onclick="selectLang('gu','ગુજરાતી')">ગુજરાતી</div>
+        <div class="lang-option" data-lang="jv" onclick="selectLang('jv','basa Jawa')">basa Jawa</div>
+        <div class="lang-option" data-lang="kn" onclick="selectLang('kn','ಕನ್ನಡ')">ಕನ್ನಡ</div>
+        <div class="lang-option" data-lang="mai" onclick="selectLang('mai','मैथिली')">मैथिली</div>
+        <div class="lang-option" data-lang="ml" onclick="selectLang('ml','മലയാളം')">മലയാളം</div>
+        <div class="lang-option" data-lang="mr" onclick="selectLang('mr','मराठी')">मराठी</div>
+        <div class="lang-option" data-lang="ms" onclick="selectLang('ms','Bahasa Melayu')">Bahasa Melayu</div>
+        <div class="lang-option" data-lang="or" onclick="selectLang('or','ଓଡ଼ିଆ')">ଓଡ଼ିଆ</div>
+        <div class="lang-option" data-lang="pa" onclick="selectLang('pa','ਪੰਜਾਬੀ')">ਪੰਜਾਬੀ</div>
+        <div class="lang-option" data-lang="ru" onclick="selectLang('ru','Русский')">Русский</div>
+        <div class="lang-option" data-lang="ta" onclick="selectLang('ta','தமிழ்')">தமிழ்</div>
+        <div class="lang-option" data-lang="te" onclick="selectLang('te','తెలుగు')">తెలుగు</div>
+        <div class="lang-option" data-lang="uz" onclick="selectLang('uz','Oʻzbekcha')">Oʻzbekcha</div>
+        <div class="lang-option" data-lang="wuu" onclick="selectLang('wuu','吴语')">吴语</div>
+        <div class="lang-option" data-lang="yo" onclick="selectLang('yo','Yoruba')">Yoruba</div>
+        <div class="lang-option" data-lang="yue" onclick="selectLang('yue','粵語')">粵語</div>
       </div>
     </div>
     <nav class="toc" id="toc"></nav>
@@ -779,7 +799,14 @@ async function init() {
         'ru': 'Русский', 'pl': 'Polski', 'nl': 'Nederlands', 'bn': 'বাংলা',
         'sv': 'Svenska', 'da': 'Dansk', 'fi': 'Suomi', 'no': 'Norsk',
         'cs': 'Čeština', 'km': 'ខ្មែរ', 'ceb': 'Bisaya', 'tl': 'Tagalog',
-        'ur': 'اردو', 'sw': 'Kiswahili', 'ha': 'Hausa', 'am': 'አማርኛ', 'fa': 'فارسی'
+        'ur': 'اردو', 'sw': 'Kiswahili', 'ha': 'Hausa', 'am': 'አማርኛ', 'fa': 'فارسی',
+        'apc': 'شامي', 'apd': 'عربي سوداني', 'arz': 'مصري',
+        'bho': 'भोजपुरी', 'gu': 'ગુજરાતી', 'jv': 'basa Jawa',
+        'kn': 'ಕನ್ನಡ', 'mai': 'मैथिली', 'ml': 'മലയാളം',
+        'mr': 'मराठी', 'ms': 'Bahasa Melayu', 'or': 'ଓଡ଼ିଆ',
+        'pa': 'ਪੰਜਾਬੀ', 'ta': 'தமிழ்',
+        'te': 'తెలుగు', 'uz': 'Oʻzbekcha', 'wuu': '吴语',
+        'yo': 'Yoruba', 'yue': '粵語'
       };
       const langName = langNames[langParam];
       if (langName) {

@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 
 const LANGS_DIR = 'langs';
-const OUT_DIR = 'data/translations';
+const OUT_DIR = 'data/translations/chapters';
 
-const ALL_LANGUAGES = ['am', 'ar', 'bn', 'ceb', 'cs', 'da', 'de', 'es', 'fa', 'fi', 'fr', 'ha', 'hi', 'id', 'it', 'ja', 'km', 'ko', 'mr', 'my', 'nl', 'no', 'pa', 'pl', 'pt', 'ru', 'sv', 'sw', 'te', 'th', 'tl', 'tr', 'ur', 'vi', 'wuu', 'yue', 'zh'];
+const ALL_LANGUAGES = ['am', 'apc', 'apd', 'ar', 'arz', 'bho', 'bn', 'ceb', 'cs', 'da', 'de', 'es', 'fa', 'fi', 'fr', 'gu', 'ha', 'hi', 'id', 'it', 'ja', 'jv', 'km', 'kn', 'ko', 'mai', 'ml', 'mr', 'ms', 'my', 'nl', 'no', 'or', 'pa', 'pl', 'pt', 'ru', 'sv', 'sw', 'ta', 'te', 'th', 'tl', 'tr', 'uk', 'ur', 'uz', 'vi', 'wuu', 'yo', 'yue', 'zh'];
 
 const args = process.argv.slice(2);
 let LANGUAGES = [];
@@ -57,7 +57,7 @@ function combineLang(iso) {
         fs.mkdirSync(OUT_DIR, { recursive: true });
     }
 
-    const outFile = path.join(OUT_DIR, `chapters_${iso}.json`);
+    const outFile = path.join(OUT_DIR, `${iso}.json`);
     fs.writeFileSync(outFile, JSON.stringify(allChapters, null, 2), 'utf8');
     console.log(`Written to ${outFile}`);
 }

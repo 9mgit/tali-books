@@ -1,0 +1,23 @@
+{
+  "eyebrow": "A story in ten parts",
+  "dedication": "For every mother who kept going when she had nothing left.<br>For every child born into a world that wasn't ready for them.<br>For everyone who ever looked at something broken and thought — I could fix that.",
+  "intro": "This is not a holy book. Holy books tell you what to believe. This book tells you what to do. It will ask you to look. Really look. Past the anger. Past the flag. Down to the place where every human being keeps their fear.",
+  "labels": {
+    "chapters": "Chapters",
+    "words": "Words",
+    "parts": "Parts"
+  },
+  "questions": [
+    "What is the real pain?",
+    "Who is not being seen?",
+    "What can I do right now, with what I have?",
+    "Is this something I should handle alone, or does someone with more knowledge need to be involved?"
+  ],
+  "begin": "Begin Reading",
+  "sidebar": {
+    "search": "⌕ Search the book…",
+    "chapters": "Chapters",
+    "words": "Words",
+    "parts": "Parts"
+  }
+}

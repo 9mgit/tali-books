@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Ìtàn ní apá mẹ́wàá",
+  "dedication": "Fún gbogbo ìyá tí kò juwọ́ sílẹ̀ nígbà tí kò ku nǹkan kan mọ́.<br>Fún gbogbo ọmọ tí a bí sínú ayé tí kò tíì gbáradì fún wọn.<br>Fún gbogbo ẹni tí ó wo nǹkan tó bàjẹ́ rí tí ó sì rò pé — mo le tún un ṣe.",
+  "intro": "Èyí kì í ṣe ìwé mímọ́. Àwọn ìwé mímọ́ máa ń sọ ohun tí o gbọ́dọ̀ gbàgbọ́ fún ọ. Ìwé yìí máa ń sọ ohun tí o gbọ́dọ̀ ṣe fún ọ. Yóò ní kí o wò ó. Wò ó dáadáa. Kọjá ìbínú. Kọjá àsíá. Lọ sí ibi tí gbogbo ènìyàn ń pa ìbẹ̀rù mọ́ sí.",
+  "labels": {
+    "chapters": "Awọn ori",
+    "words": "Awọn ọrọ",
+    "parts": "Awọn apá"
+  },
+  "questions": [
+    "Kí ni ìrora gidi náà?",
+    "Ta ni a kò rí?",
+    "Kí ni mo lè ṣe nísinsìnyí, pẹ̀lú ohun tí mo ní?",
+    "Ṣé nǹkan tí mo lè dá ṣe ni èyí, àbí ẹnì kan tí ó ní ìmọ̀ sí i ní láti lọ́wọ́ sí i?"
+  ],
+  "begin": "Bẹ̀rẹ̀ kíkà",
+  "sidebar": {
+    "search": "⌕ Wá inú ìwé náà…",
+    "chapters": "Awọn ori",
+    "words": "Awọn ọrọ",
+    "parts": "Awọn apá"
+  }
+}
