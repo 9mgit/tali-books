@@ -812,7 +812,6 @@ async function init() {
       if (langName) {
         await loadTranslations(langParam, langParam);
         await loadCoverTranslation(langParam);
-        loadedLang.add(langParam);
         currentLang = langParam;
         document.getElementById('currentLang').textContent = langName;
         // Update dropdown active state
@@ -1064,11 +1063,13 @@ async function selectLang(code, name) {
     // Reload original English content
     await loadOriginal();
   } else {
-    if (!loadedLang.has(code)) {
+    if (langCache.has(code)) {
+      allChapters = langCache.get(code);
+    } else {
       await loadTranslations(code, code);
       await loadCoverTranslation(code);
-      loadedLang.add(code);
     }
+    rebuildChapters();
   }
 }
 
@@ -1082,7 +1083,7 @@ document.addEventListener('keydown', e => {
 
 // ── Language selector ───────────────────────────────────────────────────────────
 let currentLang = 'en';
-const loadedLang = new Set();
+const langCache = new Map();
 
 function toggleLangDropdown() {
   document.getElementById('langDropdown').classList.toggle('open');
@@ -1113,10 +1114,11 @@ async function selectLang(code, name) {
   if (code === 'en') {
     await loadOriginal();
   } else {
-    if (!loadedLang.has(code)) {
+    if (langCache.has(code)) {
+      allChapters = langCache.get(code);
+    } else {
       await loadTranslations(code, code);
       await loadCoverTranslation(code);
-      loadedLang.add(code);
     }
     rebuildChapters();
   }
@@ -1241,6 +1243,7 @@ async function loadTranslations(langCode, target_lang) {
     }
     
     console.log('Updated allChapters, rebuilding UI...');
+    langCache.set(langCode, chapters);
     rebuildChapters();
     console.log('Done loading translation');
   } catch(e) {
