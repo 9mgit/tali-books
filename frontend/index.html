@@ -1089,9 +1089,11 @@ async function selectLang(code, name) {
     } else {
       await loadTranslations(code, code);
       if (currentLang !== code) return;
-      await loadCoverTranslation(code);
       rebuildChapters();
     }
+    // Always update cover (not cached per-language yet)
+    await loadCoverTranslation(code);
+    if (currentLang !== code) return;
   }
 }
 
