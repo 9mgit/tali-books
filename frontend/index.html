@@ -810,9 +810,10 @@ async function init() {
       };
       const langName = langNames[langParam];
       if (langName) {
-        await loadTranslations(langParam, langParam);
-        await loadCoverTranslation(langParam);
         currentLang = langParam;
+        await loadTranslations(langParam, langParam);
+        if (currentLang !== langParam) return;
+        await loadCoverTranslation(langParam);
         document.getElementById('currentLang').textContent = langName;
         // Update dropdown active state
         document.querySelectorAll('.lang-option').forEach(el => {
@@ -1037,42 +1038,6 @@ function toggleSidebar() {
   document.getElementById('sidebar').classList.toggle('open');
   document.getElementById('overlay').classList.toggle('open');
 }
-async function selectLang(code, name) {
-  currentLang = code;
-  document.getElementById('currentLang').textContent = name;
-  closeLangDropdown();
-  
-  // Update active state
-  document.querySelectorAll('.lang-option').forEach(el => {
-    el.classList.toggle('active', el.dataset.lang === code);
-  });
-  
-  console.log('Loading translation:', code);
-  
-  // Update URL without reload
-  const url = new URL(window.location);
-  if (code === 'en') {
-    url.searchParams.delete('lang');
-  } else {
-    url.searchParams.set('lang', code);
-  }
-  window.history.replaceState({}, '', url);
-  
-  // Reload chapters if new language
-  if (code === 'en') {
-    // Reload original English content
-    await loadOriginal();
-  } else {
-    if (langCache.has(code)) {
-      allChapters = langCache.get(code);
-    } else {
-      await loadTranslations(code, code);
-      await loadCoverTranslation(code);
-    }
-    rebuildChapters();
-  }
-}
-
 // ── Keyboard shortcuts ─────────────────────────────────────────────────────
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') { closeSearch(); closeSidebar(); closeLangDropdown(); }
@@ -1098,10 +1063,14 @@ async function selectLang(code, name) {
   document.getElementById('currentLang').textContent = name;
   closeLangDropdown();
   
-  // Update URL
+  // Update URL without reload
   const url = new URL(window.location);
-  url.searchParams.set('lang', code);
-  window.history.pushState({}, '', url);
+  if (code === 'en') {
+    url.searchParams.delete('lang');
+  } else {
+    url.searchParams.set('lang', code);
+  }
+  window.history.replaceState({}, '', url);
   
   // Update active state
   document.querySelectorAll('.lang-option').forEach(el => {
@@ -1116,11 +1085,13 @@ async function selectLang(code, name) {
   } else {
     if (langCache.has(code)) {
       allChapters = langCache.get(code);
+      rebuildChapters();
     } else {
       await loadTranslations(code, code);
+      if (currentLang !== code) return;
       await loadCoverTranslation(code);
+      rebuildChapters();
     }
-    rebuildChapters();
   }
 }
 
@@ -1213,6 +1184,12 @@ async function loadTranslations(langCode, target_lang) {
     }
     console.log('Got translations:', chapters.length, 'chapters');
     
+    // Always cache so future switches don't need to fetch
+    langCache.set(langCode, chapters);
+    
+    // Stale check — user may have switched away during fetch
+    if (currentLang !== langCode) return;
+    
     // Replace chapter content
     allChapters = chapters;
     
@@ -1243,7 +1220,6 @@ async function loadTranslations(langCode, target_lang) {
     }
     
     console.log('Updated allChapters, rebuilding UI...');
-    langCache.set(langCode, chapters);
     rebuildChapters();
     console.log('Done loading translation');
   } catch(e) {
